@@ -6,18 +6,6 @@ import Footer from "@/components/Footer";
 import Sidebar from "@/components/Sidebar";
 
 export default function Home() {
-  const articleContent = {
-    title: "Why I love cats",
-    paragraph: {
-      p1: "cats",
-      p2: "cats",
-      p3: "cats",
-    },
-    subTitle: {
-      st1: "why your cat does...",
-      st2: "How to stop your cat from...",
-    },
-  };
 
   return (
     <>

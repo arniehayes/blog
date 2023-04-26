@@ -1,8 +1,11 @@
+import Image from 'next/image'
 import React from 'react'
 
-const Hero = () => {
+const Hero = ({src, alt}) => {
   return (
-    <div></div>
+    <div>
+      <img src={src} alt={alt} width={500} />
+    </div>
   )
 }
 
