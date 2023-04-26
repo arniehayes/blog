@@ -1,10 +1,10 @@
-import Image from 'next/image'
 import React from 'react'
+import style from "../styles/componentStyles/Hero.module.scss"
 
 const Hero = ({src, alt}) => {
   return (
-    <div>
-      <img src={src} alt={alt} width={500} />
+    <div className={style.heroContainer}>
+      <img src={src} alt={alt} width={900} />
     </div>
   )
 }

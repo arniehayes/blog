@@ -13,14 +13,14 @@ const Post = (props) => {
   return (
     <>
       <Header />
-      <main>
+      <main className={style.mainContainer}>
         <Title text={props?.fields?.title} />
         <Hero
           src={props?.fields?.featuredImage?.fields?.file?.url}
           alt={props?.fields?.featuredImage?.fields?.title}
         />
         <div className={style.markdownContainer}>
-          <ReactMarkdown>{props?.fields?.testContent}</ReactMarkdown>
+          <ReactMarkdown className={style.markDown}>{props?.fields?.testContent}</ReactMarkdown>
         </div>
       </main>
       <Footer />

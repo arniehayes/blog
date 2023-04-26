@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import style from "../styles/componentStyles/Title.module.scss";
 
-const Title = ({text}) => {
+const Title = ({ text }) => {
   return (
-    <h1>{text}</h1>
-  )
-}
+    <header className={style.titleContainer}>
+      <h1>{text}</h1>
+    </header>
+  );
+};
 
-export default Title
+export default Title;

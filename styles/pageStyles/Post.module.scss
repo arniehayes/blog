@@ -1,3 +1,22 @@
+.mainContainer {
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 .markdownContainer {
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.markDown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
 }
